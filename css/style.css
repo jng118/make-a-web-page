@@ -1,0 +1,145 @@
+/* used ColoZilla on firefox to find the color hex codes for me, couldn't figure out
+how to bring up colorwheel in firefox */
+
+h1 {
+
+	text-align: center;
+
+	color: #2F82BB;
+
+
+}
+
+body {
+
+	padding: 20px 10px;
+
+	font-family: lucida;
+
+	max-width: 2000px;
+
+	margin: 0 auto;
+
+	font-size: 1.5em; 
+  
+  /* the *em can be figured out by dividng pixel by 16 which is the default for html, or you can take any number and multply it by 16 to get your em */
+
+	background-color: #E6E1D1;  
+
+	text-align: left;
+
+
+}
+
+p {
+	margin: 10px 0;
+}
+
+
+ol {
+
+	list-style-type: upper-roman;
+
+	color: black;
+}
+
+ul {
+
+	list-style-type: circle;
+
+	color: purple;
+
+}
+
+li {
+
+	font-size: 20px;
+
+	line-height: 44px; /*I borrowed this from Andy's template because I couldn't quite figure out if we needed to modify this ourselves of if we should keep it at this for mobile apps */
+
+}
+
+
+.Guide{
+
+	text-align: left;
+
+	background-color: #E6E1D1;
+
+}
+
+
+
+h2 {
+	background-color: #2F82BB;
+
+	color: white;
+
+	border-radius: 8px;
+
+	margin: 10px;
+
+	text-align: left;
+
+
+}
+
+
+
+
+.concept-title {
+
+	font-size: 28px;
+
+	margin: 8px;
+
+	text-align: center;
+
+	color: #2F82BB;
+
+}
+
+.concept {
+
+	color: black;
+
+	background-color: #E6E1D1;
+
+	padding: 4px;
+
+	margin: 10px;
+
+	border-radius: 8px;
+
+
+}
+
+.Text {
+
+	color: gray;
+
+	background-color: black;
+
+	/* background color in this box defines the border around it */
+
+	border-radius: 15px;
+
+	padding: 10px;
+
+	margin: 10px;
+
+
+}
+
+.Text {
+	background-color: #2F82BB;
+	
+	border-radius: 20px;
+	
+	color: white;
+	
+	padding: 10px;
+	
+	margin: 10px;
+  
+}
